@@ -1,0 +1,18 @@
+.footer__logo {
+  width: 98px;
+  height: 33px;
+  grid-area: logo;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    width: 150px;
+    height: 54px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__logo {
+    margin-bottom: 7.5px;
+  }
+}

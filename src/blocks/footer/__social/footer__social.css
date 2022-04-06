@@ -1,0 +1,19 @@
+.footer__social {
+  margin: 13px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__social {
+    margin-top: 95px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__social {
+    margin-top: 70px;
+  }
+}

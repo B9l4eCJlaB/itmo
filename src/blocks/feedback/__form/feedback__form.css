@@ -1,0 +1,31 @@
+.feedback__form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__form {
+    max-width: 690px;
+    display: grid;
+    grid-template-areas: "first-name last-name textarea"
+      "phone email textarea"
+      ". button .";
+    gap: 20px 29px;
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feedback__form {
+    max-width: 919px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .feedback__form {
+    max-width: fit-content;
+  }
+}
