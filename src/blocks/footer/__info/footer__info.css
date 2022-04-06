@@ -1,0 +1,27 @@
+.footer__info {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__info {
+    display: block;
+    max-width: 204px;
+    grid-area: info;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__info {
+    margin-bottom: 7.5px;
+    max-width: 263px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,33 @@
+.feedback__form-submit {
+  padding: 12.5px 16px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__form-submit {
+    grid-area: button;
+    margin-top: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feedback__form-submit {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

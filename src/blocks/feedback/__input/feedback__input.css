@@ -1,0 +1,47 @@
+.feedback__input {
+  padding: 12px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.feedback__input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #009FAC;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__input {
+    width: fit-content;
+    min-width: 210px;
+    padding-left: 12px;
+    border-radius: 10px;
+  }
+
+  .feedback__input::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feedback__input{
+    min-width: 287px;
+    padding: 19px 24px 19px 20px;
+  }
+
+  .feedback__input::placeholder {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .feedback__input {
+    min-width: 352px;
+  }
+}
+

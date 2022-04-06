@@ -1,0 +1,46 @@
+.footer {
+  margin: 0 auto;
+  padding: 40px 0 33px 0;
+  max-width: 288px;
+  display: grid;
+  grid-template-areas: "logo copy"
+    "about development"
+    "contacts contacts"
+    "authors authors";
+  row-gap: 40px;
+  column-gap: 49px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 686px;
+    grid-template-areas: "logo . . ."
+      "copy copy . ."
+      "info about development contacts"
+      "authors authors . contacts";
+    row-gap: 30px;
+    column-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 919px;
+    grid-template-areas: "logo . . ."
+      "copy about development contacts"
+      "info about development contacts"
+      "authors authors . .";
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    max-width: 1110px;
+    column-gap: 150px;
+  }
+}
