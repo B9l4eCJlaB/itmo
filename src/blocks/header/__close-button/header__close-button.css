@@ -1,0 +1,8 @@
+.header__close-button{
+  background-image: url("../../../images/close.svg");
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #001337;
+  visibility:visible;
+}

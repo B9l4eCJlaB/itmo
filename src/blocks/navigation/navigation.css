@@ -1,0 +1,10 @@
+.navigation{
+  margin: 24px 0 0 16px;
+  font-family: sans-serif, 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  display: none;
+}

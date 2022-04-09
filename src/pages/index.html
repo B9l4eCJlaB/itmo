@@ -5,15 +5,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Университет ИТМО</title>
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="../pages/index.css">
 </head>
 
 <body class="root">
   <div class="page">
-    <header class="header">Here will be header</header>
+    <header class="header">
+      <img src="../images/burger-menu.svg" class="header__menu"></img>
+      <img src="../images/logo.svg" alt="Лого Industrial AI researchlab" class="header__logo">
+      <button type="button" class="header__close-button hidden-class"></button>
+    </header>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__element">О нас</li>
+        <li class="navigation__element">Лаборатория</li>
+        <li class="navigation__element">Проекты</li>
+        <li class="navigation__element">Образование</li>
+        <li class="navigation__element">Публикации</li>
+        <li class="navigation__element">Команда</li>
+        <li class="navigation__element">Связаться</li>
+      </ul>
+    </nav>
     <main class="content">Here will be content</main>
     <footer class="footer">Here will be footer</footer>
   </div>
 </body>
-
+<script type="module" src="../pages/index.js"></script>
 </html>
