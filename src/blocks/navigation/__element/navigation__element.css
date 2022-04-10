@@ -1,3 +1,14 @@
-.navigation__element{
+.navigation__element {
   margin: 0 0 21px 0;
+  font-family: sans-serif, 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
+
+.navigation__element:nth-of-type(4):hover + .navigation__subsection{
+  display: flex;
+}
+

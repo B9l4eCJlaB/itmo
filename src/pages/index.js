@@ -13,7 +13,7 @@ headerMenu.addEventListener('click', function (){
     headerMenu.style.width = "71px";
     headerLogo.classList.toggle('hidden-class');
     headerCloseButton.classList.toggle('hidden-class');
-    navigationBar.style.display="block";
+    navigationBar.classList.add('navigation_active');
   }
 });
 
@@ -23,5 +23,5 @@ headerCloseButton.addEventListener("click", function(){
   headerMenu.style.width = "24px";
   headerLogo.classList.toggle('hidden-class');
   headerCloseButton.classList.toggle('hidden-class');
-  navigationBar.style.display = "none";
+  navigationBar.classList.remove('navigation_active');
 });
