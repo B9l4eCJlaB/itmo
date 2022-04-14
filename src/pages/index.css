@@ -2,6 +2,7 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/lab-content/lab-content.css);
 @import url(../blocks/lab-content/__title/lab-content__title.css);
 @import url(../blocks/lab-content/__description/lab-content__description.css);
 @import url(../blocks/lab-content/__image/lab-content__image.css);

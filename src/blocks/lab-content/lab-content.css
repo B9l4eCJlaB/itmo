@@ -1,0 +1,8 @@
+.lab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 872px;
+  background-color: #E0F0FF;
+  padding: 40px 16px;
+}
