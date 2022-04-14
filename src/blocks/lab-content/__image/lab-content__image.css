@@ -1,3 +1,5 @@
 .lab-content__image {
-  
+  width: 288px;
+  height: 180px;
+  object-fit: fill;
 }

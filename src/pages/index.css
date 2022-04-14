@@ -6,6 +6,7 @@
 @import url(../blocks/lab-content/__title/lab-content__title.css);
 @import url(../blocks/lab-content/__description/lab-content__description.css);
 @import url(../blocks/lab-content/__image/lab-content__image.css);
+@import url(../blocks/lab-content/__image/_hide/lab-content__image_hide.css);
 @import url(../blocks/lab-content/__texts/lab-content__texts.css);
 @import url(../blocks/lab-content/__text/lab-content__text.css);
 @import url(../blocks/lab-content/__cards/lab-content__cards.css);

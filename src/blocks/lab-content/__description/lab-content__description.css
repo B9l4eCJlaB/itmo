@@ -1,3 +1,4 @@
 .lab-content__description {
-  
+  display: flex;
+  flex-direction: column;
 }
