@@ -1,4 +1,5 @@
 .lab-content__image {
+  margin-top: 20px;
   width: 288px;
   height: 180px;
   object-fit: fill;
