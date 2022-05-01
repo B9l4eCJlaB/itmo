@@ -16,3 +16,14 @@
 @import url(../blocks/lab-content/__icon/lab-content__icon.css);
 @import url(../blocks/lab-content/__card-description/lab-content__card-description.css);
 @import url(../blocks/lab-content/__more-button/lab-content__more-button.css);
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__types/projects__types.css);
+@import url(../blocks/projects/__elements/projects__elements.css);
+@import url(../blocks/projects/__element/projects__element.css);
+@import url(../blocks/projects/__icon/projects__icon.css);
+@import url(../blocks/projects/__about/projects__about.css);
+@import url(../blocks/projects/__arrow/projects__arrow.css);
+@import url(../blocks/projects/__pagination/projects__pagination.css);
+@import url(../blocks/projects/__pagination/_active/projects__pagination_active.css);
